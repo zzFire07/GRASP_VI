@@ -25,3 +25,5 @@ La clase ```Thread``` está definida en el espacio de nombres ```System.Threadin
 
 
 ️➡️ **Que patrón(es) o principio(s) has usado para esto?**
+
+- Para resolver este problema use el principio SOLID ISP, creando una clase que implemente la interfaz y usandola en la clase recipe así recipe no tenia que implementar los metodos de la interfaz que no usaba. 
